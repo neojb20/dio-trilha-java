@@ -9,7 +9,7 @@ public class ContaTerminal {
 
         contaCliente contaCliente = new contaCliente();
 
-        // pedindo informacoes paraentrada o usuario.
+        // pedindo informacoes para entrada o usuario.
         System.out.println("Olá por favor, Dígite o número de sua agência!.");
         contaCliente.numero = scanner.nextInt();
         System.out.println("Dígite o numero de sua agencia!");
@@ -19,10 +19,10 @@ public class ContaTerminal {
         System.out.println("Dígite o valor inicial que pretende depositar");
         contaCliente.saldo = scanner.nextDouble();
 
-        // exibicao de menssagem final para o1 usuario.
+        // exibicao de menssagem final para o usuario.
         System.out.println("olá, sr.a. " + contaCliente.nomeCliente
-                + " obrigado por criar uma conta em nosso banco, sua agencia é " + contaCliente.agencia + ", conta "
-                + contaCliente.numero + " seu saldo " + contaCliente.saldo + " já está disponivel para saque");
+                + ", obrigado por criar uma conta em nosso banco, sua agencia é " + contaCliente.agencia + ", conta "
+                + contaCliente.numero + ", seu saldo " + contaCliente.saldo + " já está disponivel para saque");
 
     }
 }
